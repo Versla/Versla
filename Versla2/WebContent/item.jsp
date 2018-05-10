@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Items</title>
 </head>
 <body>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -115,12 +115,17 @@ width:80%;
 <div id="#sidebar-left">
 		<div id="mySidenav" class="sidenav" >
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#" id="computer"  onClick="fun_hide_cat('block','Computer')" >Computers,HardDisk&Printers</a>
-  <a href="#" id="fridge"  onClick="fun_hide_cat('block','Fridge')">fridges,tv,ac&washingMachine</a>
-  <a href="#" id="camera"  onClick="fun_hide_cat('block','Camera')">cameras</a>
+  <a href="#" id="computer"  onClick="fun_hide_cat('block','Computer')" >Computer</a>
+  <a href="#" id="fridge"  onClick="fun_hide_cat('block','Fridge')">Refrigerator</a>
+  <a href="#" id="camera"  onClick="fun_hide_cat('block','Camera')">Camera</a>
+  <a href="#" id="camera"  onClick="fun_hide_cat('block','Camera')">HardDisk</a>
+  <a href="#" id="camera"  onClick="fun_hide_cat('block','Camera')">Printer</a>
+  <a href="#" id="camera"  onClick="fun_hide_cat('block','Camera')">Tv</a>
+  <a href="#" id="camera"  onClick="fun_hide_cat('block','Camera')">Ac</a>
+  <a href="#" id="camera"  onClick="fun_hide_cat('block','Camera')">Washing Machine</a>
   </div>
 <div id="main">
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()" id="category">&#9776;SUBCATEGORY</span>	
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()" id="category">&#9776;Electronics</span>	
 </div>
 <script>
 function openNav() {
